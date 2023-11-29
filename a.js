@@ -2239,10 +2239,3 @@ jQuery(document).ready(function() {
         })
     }, 500)
 });
-if (typeof window['sg_notify'] === 'undefined') {
-    var scripts = document.getElementsByTagName('script');
-    var tag = document.createElement('script');
-    tag.src = "https://assets.snclouds.com/notify/script.js";
-    var lastScriptTag = scripts[scripts.length - 1];
-    lastScriptTag.parentNode.insertBefore(tag, lastScriptTag)
-}
